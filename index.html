@@ -1,17 +1,82 @@
-<h2>About</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dr Sanket Kachole – About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="branding">
+        <h1 class="site-title">SANKET KACHOLE</h1>
+        <p class="site-subtitle">Postdoctoral Research Fellow, University College London</p>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="active">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="awards.html">Awards</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<p>
-I am a Postdoctoral Research Fellow at University College London, working on multimodal artificial intelligence for early detection of oral cancer. My research focuses on integrating genetic data with medical imaging to develop more accurate and early diagnostic tools.
-</p>
+  <main class="container main-content">
+    <section class="section">
+      <h2>About</h2>
+      <div class="section-grid">
+        <div class="section-text">
+          <p>
+            I am a Postdoctoral Research Fellow at University College London working on multimodal
+            artificial intelligence for early detection of oral cancer. My research focuses on
+            integrating genetic data with medical imaging and advanced machine learning models to
+            improve diagnosis and screening.
+          </p>
+          <p>
+            My background spans neuromorphic vision, event-based video analysis, and computer vision
+            for robotics and healthcare. I have experience in data collection and annotation, model
+            development, evaluation, and deployment across both academia and industry.
+          </p>
+          <p>
+            Before joining UCL, I worked as a Data Scientist in industry and completed my PhD in
+            Artificial Intelligence at Kingston University, where I developed methods for
+            event-based vision and generative neural models for robotic perception.
+          </p>
+        </div>
+        <div class="section-aside">
+          <div class="profile-card">
+            <div class="profile-placeholder">
+              <img src="assets/profile.jpg" alt="Dr Sanket Kachole" />
+            </div>
+            <p class="profile-name">Dr Sanket Kachole</p>
+            <p class="profile-role">Postdoctoral Research Fellow, UCL</p>
+            <ul class="profile-links">
+              <li>Email: <a href="mailto:kacholesanket@gmail.com">kacholesanket@gmail.com</a></li>
+              <li>GitHub: <a href="https://github.com/sanketkachole">github.com/sanketkachole</a></li>
+              <li>Google Scholar: <!-- add link -->
+                <a href="YOUR_GOOGLE_SCHOLAR_LINK_HERE" target="_blank" rel="noopener">
+                  View profile
+                </a>
+              </li>
+              <li>X (Twitter): @KacholeSanket</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<p>
-My background spans neuromorphic vision, event-based perception, multimodal learning, and computer vision for robotics and healthcare. I have extensive experience in data collection, annotation, model development, evaluation, and presenting research at international venues.
-</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sanket Kachole</p>
+    </div>
+  </footer>
 
-<p>
-Before joining UCL, I completed my PhD in Artificial Intelligence at Kingston University, developing methods for event-based visual perception using Generative Neural Networks, Transformers, Graph Neural Networks, and Spiking Neural Networks. I also worked as a Data Scientist in industry (Santander, HomeProtect), building ML systems for computer vision, NLP, and anomaly detection.
-</p>
-
-<p>
-My work has been published in leading journals such as <em>Nature Scientific Data</em>, <em>Pattern Recognition</em>, and <em>IEEE Access</em>, and recognised with the Best Paper Award at the CVPR Event-Based Vision Workshop.
-</p>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

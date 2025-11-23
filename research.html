@@ -1,22 +1,77 @@
-<h2>Research</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dr Sanket Kachole – Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Research by Dr Sanket Kachole on multimodal AI, oral cancer detection, neuromorphic vision, and machine learning."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="branding">
+        <h1 class="site-title">SANKET KACHOLE</h1>
+        <p class="site-subtitle">Postdoctoral Research Fellow, University College London</p>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">About</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="awards.html">Awards</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<h3>Multimodal AI for Oral Cancer Detection</h3>
-<p>
-At UCL, I develop multimodal AI models that integrate genetic data and medical imaging to improve early detection of oral cancer. This work involves designing deep learning architectures capable of fusing heterogeneous biomedical data to support accurate prediction and diagnosis.
-</p>
+  <main class="container main-content">
+    <section class="section">
+      <h2>Research</h2>
 
-<h3>Event-Based Vision and Neuromorphic Perception</h3>
-<p>
-My PhD research focused on neuromorphic vision systems for robotic perception. I developed fused RGB-event segmentation networks, event augmentation techniques, and spiking-neuron inspired models for asynchronous visual processing. This includes work on panoptic segmentation using graph-based neural architectures.
-</p>
+      <article class="research-item">
+        <h3>Multimodal AI for Oral Cancer Detection</h3>
+        <p>
+          At UCL, I am developing multimodal AI methods that combine genetic profiles and medical
+          imaging to improve early detection of oral cancer. This work involves designing and
+          training deep learning models that can fuse heterogeneous clinical and imaging data to
+          support more accurate and earlier diagnosis.
+        </p>
+      </article>
 
-<h3>Generative Models for Robotic Understanding</h3>
-<p>
-I have built generative deep learning frameworks for pose prediction, object segmentation, and motion analysis using pressure maps and event streams. These models were designed for structured prediction tasks in robotics and human–computer interaction.
-</p>
+      <article class="research-item">
+        <h3>Neuromorphic Vision and Event-Based Perception</h3>
+        <p>
+          My PhD research focused on advancing autonomous perception in robotics using neuromorphic
+          vision systems. I have developed models for event-based segmentation and panoptic
+          perception, combining RGB frames and event data with architectures such as SegNet,
+          transformers, graph neural networks, and spiking neural networks.
+        </p>
+      </article>
 
-<h3>Machine Learning for Real-World Applications</h3>
-<p>
-In industry, I have developed production ML pipelines for image segmentation, claim classification, fraud and risk analysis, and anomaly detection. My work includes transformer-based NLP systems and vision-transformer segmentation models deployed in operational environments.
-</p>
+      <article class="research-item">
+        <h3>Machine Learning in Real-World Systems</h3>
+        <p>
+          In industry roles as a Data Scientist, I have built and deployed machine learning models
+          for computer vision, NLP, and risk modelling, including claim classification, motion
+          prediction, and anomaly detection, with a focus on robust pipelines and production-grade
+          code.
+        </p>
+      </article>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sanket Kachole</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dr Sanket Kachole</title>
+  <title>Dr Sanket Kachole – About</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content="Dr Sanket Kachole – Postdoctoral Research Fellow in multimodal AI, oral cancer detection, and neuromorphic vision."
-  />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -18,19 +14,18 @@
         <p class="site-subtitle">Postdoctoral Research Fellow, University College London</p>
       </div>
       <nav class="site-nav">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#cv">CV</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html" class="active">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="awards.html">Awards</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="container main-content">
-    <!-- ABOUT -->
-    <section id="about" class="section">
+    <section class="section">
       <h2>About</h2>
       <div class="section-grid">
         <div class="section-text">
@@ -52,125 +47,25 @@
           </p>
         </div>
         <div class="section-aside">
-          <!-- Replace 'assets/profile.jpg' with your actual image path or remove this block -->
           <div class="profile-card">
             <div class="profile-placeholder">
-              <!-- Optional profile image -->
-               <img src="assets/profile.jpg" alt="Dr Sanket Kachole" />
-              <span>Photo</span>
+              <img src="assets/profile.jpg" alt="Dr Sanket Kachole" />
             </div>
             <p class="profile-name">Dr Sanket Kachole</p>
             <p class="profile-role">Postdoctoral Research Fellow, UCL</p>
             <ul class="profile-links">
               <li>Email: <a href="mailto:kacholesanket@gmail.com">kacholesanket@gmail.com</a></li>
               <li>GitHub: <a href="https://github.com/sanketkachole">github.com/sanketkachole</a></li>
-              <!-- Replace with your actual profile URL -->
-              <li>Google Scholar: <span>add your profile link here</span></li>
-              <li>X (Twitter): <span>@KacholeSanket</span></li>
+              <li>Google Scholar: <!-- add link -->
+                <a href="YOUR_GOOGLE_SCHOLAR_LINK_HERE" target="_blank" rel="noopener">
+                  View profile
+                </a>
+              </li>
+              <li>X (Twitter): @KacholeSanket</li>
             </ul>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- RESEARCH -->
-    <section id="research" class="section">
-      <h2>Research</h2>
-
-      <article class="research-item">
-        <h3>Multimodal AI for Oral Cancer Detection</h3>
-        <p>
-          At UCL, I am developing multimodal AI methods that combine genetic profiles and medical
-          imaging to improve early detection of oral cancer. This work involves designing and
-          training deep learning models that can fuse heterogeneous clinical and imaging data to
-          support more accurate and earlier diagnosis.
-        </p>
-      </article>
-
-      <article class="research-item">
-        <h3>Neuromorphic Vision and Event-Based Perception</h3>
-        <p>
-          My PhD research focused on advancing autonomous perception in robotics using neuromorphic
-          vision systems. I have developed models for event-based segmentation and panoptic
-          perception, combining RGB frames and event data with architectures such as SegNet,
-          transformers, graph neural networks, and spiking neural networks.
-        </p>
-      </article>
-
-      <article class="research-item">
-        <h3>Machine Learning in Real-World Systems</h3>
-        <p>
-          In industry roles as a Data Scientist, I have built and deployed ML models for computer
-          vision, NLP, and risk modelling, including claim classification, motion prediction, and
-          anomaly detection, with a focus on robust pipelines and production-grade code.
-        </p>
-      </article>
-    </section>
-
-    <!-- SELECTED PUBLICATIONS -->
-    <section id="publications" class="section">
-      <h2>Selected Publications</h2>
-      <p>
-        A subset of my publications is listed below. For a complete and up-to-date list, please see
-        my Google Scholar profile.
-      </p>
-      <ul class="pub-list">
-        <li>
-          <strong>A neuromorphic dataset for tabletop object segmentation in indoor cluttered environment</strong><br />
-          X. Huang, <strong>S. Kachole</strong>, A. Ayyad, F. B. Naeini, D. Makris, Y. Zweiri. <em>Nature Scientific Data</em>, 2024.
-        </li>
-        <li>
-          <strong>Bimodal SegNet: Fused instance segmentation using events and RGB frames</strong><br />
-          <strong>S. Kachole</strong>, X. Huang, F. B. Naeini, R. Muthusamy, D. Makris, Y. Zweiri. <em>Pattern Recognition</em>, 2024.
-        </li>
-        <li>
-          <strong>Asynchronous events-based panoptic segmentation using graph mixer neural network</strong><br />
-          <strong>S. Kachole</strong>, Y. Alkendi, F. Baghaei Naeini, D. Makris, Y. Zweiri. In <em>CVPR Workshops</em>, 2023.
-        </li>
-        <li>
-          <strong>Event augmentation for contact force measurements</strong><br />
-          F. B. Naeini, <strong>S. Kachole</strong>, R. Muthusamy, D. Makris, Y. Zweiri. <em>IEEE Access</em>, 2022.
-        </li>
-      </ul>
-    </section>
-
-    <!-- AWARDS -->
-    <section id="awards" class="section">
-      <h2>Awards & Funding</h2>
-      <ul>
-        <li>Best Paper Award, CVPR Event-based Vision Workshop, 2023.</li>
-        <li>Best Oral Presentation Award, ECE Conference, Kingston University.</li>
-        <li>Distinguished Research Achievement and Funding Award, Kingston University.</li>
-        <li>Faculty Research Student Conference and Training Fund, Kingston University.</li>
-      </ul>
-    </section>
-
-    <!-- CV -->
-    <section id="cv" class="section">
-      <h2>Curriculum Vitae</h2>
-      <p>
-        You can download my full CV as a PDF:
-      </p>
-      <p>
-        <!-- Update the href after you place your CV file in the repo -->
-        <a href="assets/Sanket_Kachole_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-      </p>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>The best way to reach me is via email:</p>
-      <p>
-        <a href="mailto:kacholesanket@gmail.com">kacholesanket@gmail.com</a>
-      </p>
-      <p>Additional links:</p>
-      <ul>
-        <li><a href="https://github.com/sanketkachole" target="_blank" rel="noopener">GitHub</a></li>
-        <!-- Replace with your actual Google Scholar URL -->
-        <li>Google Scholar – add link when ready</li>
-        <li>X (Twitter): @KacholeSanket</li>
-      </ul>
     </section>
   </main>
 
@@ -181,7 +76,6 @@
   </footer>
 
   <script>
-    // Simple script to keep the footer year up to date
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>

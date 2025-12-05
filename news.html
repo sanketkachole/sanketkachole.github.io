@@ -1,24 +1,87 @@
-<article class="news-item">
-  <h3>Research Featured by Khalifa University</h3>
-  <p>
-    My work on event-based panoptic segmentation was recently highlighted by 
-    Khalifa University in an article showcasing advances in robotic grasping 
-    and autonomous perception. The feature discusses our approach to combining 
-    neuromorphic event-based data with deep learning architectures to improve 
-    segmentation accuracy and robustness in cluttered environments.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dr Sanket Kachole – In News and Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="In news and media – coverage of Dr Sanket Kachole's research, publications, and awards."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="branding">
+        <h1 class="site-title">SANKET KACHOLE</h1>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="awards.html">Awards</a>
+        <a href="news.html" class="active">News</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <p>
-    The article covers our contributions, including the development of 
-    asynchronous event-based segmentation models and the broader impact on 
-    robotics and intelligent systems.
-  </p>
+  <main class="container main-content">
+    <section class="section">
+      <h2>In News and Media</h2>
 
-  <p>
-    Read the full feature here:
-    <a href="https://www.ku.ac.ae/enhancing-robotic-grasping-with-a-new-approach-to-panoptic-segmentation"
-       target="_blank" rel="noopener">
-      Enhancing Robotic Grasping with a New Approach to Panoptic Segmentation
-    </a>
-  </p>
-</article>
+      <div class="news-list">
+        <!-- Example: existing items can follow this pattern
+        <div class="news-item">
+          <div class="news-date">3rd Oct 2024</div>
+          <div class="news-text">
+            <p>
+              I will present my work on voice neuroprosthesis for restoring lost speech
+              to a person with ALS at SfN 2024 on Saturday, 5th Oct. Poster board H30, 1–5 pm.
+            </p>
+          </div>
+        </div>
+        -->
+
+        <!-- Khalifa University feature -->
+        <div class="news-item">
+          <div class="news-date">Nov 2023</div>
+          <div class="news-text">
+            <p>
+              My work on event-based panoptic segmentation for robotic grasping was featured
+              by Khalifa University, highlighting our approach to combining neuromorphic
+              event-based data with deep learning architectures for robust perception in
+              cluttered environments.
+            </p>
+            <p>
+              The article summarises our methodology and the broader impact of this research
+              on intelligent robotic manipulation systems. To read the full coverage,
+              please access news appeared in media here:
+              <a
+                href="https://www.ku.ac.ae/enhancing-robotic-grasping-with-a-new-approach-to-panoptic-segmentation"
+                target="_blank"
+                rel="noopener"
+              >
+                please access news appeared in media here
+              </a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Add more news items above or below in the same format -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sanket Kachole</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

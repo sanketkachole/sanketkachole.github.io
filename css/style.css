@@ -225,3 +225,30 @@ a:focus {
 .media-news-text {
   flex: 1;
 }
+
+.awards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.award-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.award-date {
+  min-width: 8rem;
+  font-weight: 600;
+}
+
+.award-text {
+  flex: 1;
+}
+
+.award-image {
+  margin-top: 1rem;
+  max-width: 350px;
+  border-radius: 8px;
+}

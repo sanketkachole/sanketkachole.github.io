@@ -252,3 +252,21 @@ a:focus {
   max-width: 350px;
   border-radius: 8px;
 }
+
+.award-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.award-image {
+  max-width: 48%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.award-links {
+  margin-top: 0.5rem;
+}
+

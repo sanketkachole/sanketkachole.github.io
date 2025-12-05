@@ -206,3 +206,22 @@ a:focus {
     grid-template-columns: 1fr;
   }
 }
+.media-news-list {
+  margin-top: 1.5rem;
+}
+
+.media-news-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.media-news-date {
+  min-width: 8rem;
+  font-weight: 600;
+}
+
+.media-news-text {
+  flex: 1;
+}

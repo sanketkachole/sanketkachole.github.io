@@ -270,3 +270,9 @@ a:focus {
   margin-top: 0.5rem;
 }
 
+.media-news-image {
+  max-width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
